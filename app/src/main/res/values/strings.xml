@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Avaya_App</string>
+
+    <!-- Main Screen -->
+
+    <string name="main_screen_title">Elegir transacción</string>
+    <string name="succes_request_message">Transaccíon exitosa</string>
+    <string name="fail_request_message">Error</string>
+
+    <!-- Main Screen Buttons-->
+    <string name="transaction_credito">Saldo Credito</string>
+    <string name="transaction_ahorro">Saldo Ahorros</string>
+    <string name="transaction_prestamo">Solicitud de Prestamo</string>
+    <string name="transaction_agente">Hablar con un agente</string>
+    <!-- Settings Screen-->
+
+    <string name="settings_screen_title">Ajustes</string>
+
+    <!-- Settings Screens Button-->
+    <string name="button_set_image">Cambiar imagen</string>
+    <string name="button_set_settings">Guardar ajustes</string>
+
+    <!-- Menu -->
+    <string name="settings_menu">Ajustes</string>
+
+</resources>

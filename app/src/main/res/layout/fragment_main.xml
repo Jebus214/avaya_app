@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <ImageView
+                        android:id="@+id/image_view"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_image_black_24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"/>
+                <Button
+                        android:id="@+id/credito_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:text="@string/transaction_credito"
+                        android:layout_gravity="center_horizontal"
+
+                        android:textColorLink="#00DDD8D8" android:textColorHighlight="#002128CC"/>
+                <Button
+                        android:id="@+id/ahorro_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:text="@string/transaction_ahorro"
+                        android:layout_gravity="center_horizontal"/>
+                <Button
+                        android:id="@+id/prestamo_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:text="@string/transaction_prestamo"
+                        android:layout_gravity="center_horizontal"/>
+                <Button
+                        android:id="@+id/agente_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:text="@string/transaction_agente"
+                        android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+</layout>
