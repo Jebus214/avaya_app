@@ -14,7 +14,7 @@ interface APIService {
 
     @Multipart
     @POST("events")
-    fun registrationPost(
+    fun request(
         @Part family: MultipartBody.Part,
         @Part type: MultipartBody.Part,
         @Part version: MultipartBody.Part,

@@ -109,7 +109,7 @@ class MainFragment : Fragment() {
 
         mAPIService = ApiUtils.apiService
 
-        mAPIService!!.registrationPost(family, type, version, eventBody).enqueue(object :Callback<ResponseBody> {
+        mAPIService!!.request(family, type, version, eventBody).enqueue(object :Callback<ResponseBody> {
 
 
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
