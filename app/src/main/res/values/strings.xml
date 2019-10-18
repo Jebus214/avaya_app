@@ -5,7 +5,7 @@
 
     <string name="main_screen_title">Elegir transacción</string>
     <string name="succes_request_message">Transaccíon exitosa</string>
-    <string name="fail_request_message">Transaccíon exitosa</string>
+    <string name="fail_request_message">Error</string>
 
     <!-- Main Screen Buttons-->
     <string name="transaction_credito">Saldo Credito</string>
